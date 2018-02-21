@@ -1,1 +1,190 @@
 # linuxAgYonetimi
+
+= Linux
+
+[link=http://www.koraykey.com/wp-content/uploads/LinuxAll.jpg]
+image::LinuxAll.jpg[Linux,250,250]
+
+'''
+== Linux Nedir?
+ Linux, Internet üzerinden haberleşen çok sayıda gönüllü programcının desteğiyle Linus Torvalds tarafından baştan başlanarak geliştirilmiş GNU/Linux işletim sisteminin çekirdeğidir. //<1>
+
+== Neden Linux?
+* Özgürdür
+
+ Lisansı sizi kısıtlamaz, üreticiyi sizden korumak için değil sizin haklarınızı korumak için tasarlanmıştır.
+ 
+* Hızlı Kurulur
+
+ Sisteminize göre + – 10 dakika değişir ama genellikle 30 dakikada yüklenir. Tek kurulum işlemiyle bilgisayarınıza ofis yazılımı, İnternet gezgini, sohbet programı gibi gerekli bütün programlar da yüklenir.
+
+* Tamdır
+
+ Bir masaüstü kullanıcısının gereksinim duyacağı her türlü yazılım Kurulum CD’si içinde mevcuttur. İnternet araçları, ofis paketi, her türlü resim, müzik, film için oynatıcı ve düzenleyiciler, oyunlar, aklınıza ne gelirse…
+ 
+* Kolay Kullanılır
+
+ Grafik arayüzleri, menüleri, ikonları ile aklınıza ve güdülerinize hitap eder. Kullanmak için bilgisayar öğrenmek, ikinci bir dil bilmek ya da uzun eğitimlerden geçmek gerekmez.
+ 
+ * Özelleştirilebilir
+ 
+  Sistemi, kendi beğeninize göre özgürce değiştirebilirsiniz. Hem görünüş, hem de davranış açısından. Tek sınır, hayal gücünüzdür.
+  
+* Virüslere geçit vermez
+
+ İnternet’ten gelen her dosyayı kontrolden geçirmekle, ya da virüs bulaşmış bilgisayarınızı temizlemekle zaman kaybetmezsiniz.
+
+* Şeffaftır
+
+ Kaynak kodlarını kendi ihtiyaçlarınıza göre değiştirebilir, kendi dağıtımınızı üretebilirsiniz. Ne yaptığını ve ne yapmadığını kaynak koduna bakarak bilirsiniz.  
+
+
+NOTE: Linux’da bir sınır vardır oda sizin hayal gücünüz, bilginiz ve becerinizdir.
+
+== Linux Dağıtımları
+// numaralı maddeler için . nın yeterli olduğunu biliyorum ancak alt alta sıralı olmalı o şekilde yapınca resimler gittiği için böyle yapmak zorunda kaldım.
+*1. Slackware*
+
+image::90px-Slackware_logo.png[slackware,90,90, role = "left"]
+Patrick Volkerding tarafından başlatılan Slackware Linux'un ilk kararlı sürümü 1993 Temmuz'unda yayınlanmış olup hâlen geliştirilen en eski Linux dağıtımıdır. Slackware, masaüstü kullanıcılarına yönelik bir dağıtım değildir. Slackware’de pek çok işlemi ayar dosyalarına bizzat el atarak halletmeniz gerekir. Yüksek düzeyde kararlı ve güvenli bir yapısı vardır – sunucu olarak kullanmaya son derece uygundur. Grafiksel kurulum seçeneği yoktur, kurulum işlemi yazı modunda gerçekleştirilir.
+
+*2. Debian*
+
+image::96px-Debian.png[debian,96,96, role = "left"]
+Debian projesi, 1993′de Ian Murdock tarafından ticari olmayan bir proje olarak başlatılmıştır -ve hala da öyledir. Özgür Yazılım Hareketi’nin en saf öğelerinden biri olarak kabul edilir. Debian, sistemin kararlılığına büyük önem verir. Kararlı sürümleri, uzun süre test edildiğinden diğer pek çok dağıtımın aksine oldukça uzun aralıklarla (birkaç yılda bir) yeni sürümleri yayınlanmaktadır.
+Debian, kullanıcı karşısına 3 ana kol ile çıkmaktadır: “kararlı (stable)”, “test (testing)” ve “kararsız (unstable)”. Stable deposundaki yazılımlar, görev kritik uygulamalar ve sunucular için önemli alternatifler sunmaktadır. Stable deposu, yazılımların çok eski versiyonlarından oluştuğu için son kullanıcılar tarafından genellikle tercih edilmezler. Son kullanıcılar yazılımlarını daha çok testing ve unstable depolarından temin etmeyi tercih ederler. Debian kapsamındaki yazılımların bütünüyle özgür lisans şartlarına sahip olması için hazırlanan Debian Sosyal Sözleşmesi, Debian Projesinin resmî hareket tarzı olarak kabul edilmiştir.
+
+*3. openSUSE*
+
+image::105px-Suse.png[opensuse,105,105, role = "left"]
+openSUSE, 1994 yılında yayınlanan SuSE Linux dağıtımının devamı niteliğindedir. SuSE Linux, ilk olarak SuSE AG firması tarafından geliştirilmiş olup, firmanın 2003 yılında Novell’e satılması sonucunda SUSE el değiştirmiştir. Novell firması 2000 yılından itibaren SuSE Linux'un yanı sıra ticari "SUSE Linux Enterprise" isimli ürünlerini yayınlamaya başlamıştır. "SuSE Linux" sürümü ise Ekim 2005'ten itibaren bir "openSUSE" adıyla devam etmektedir.
+openSUSE, Novell tarafından desteklenen ve Linux’un heryerde kullanılmasını amaçladığını bildiren bir topluluk projesidir. openSUSE aynı zamanda Novell’in "SUSE Linux Enterprise" isimli ücretli desteğe sahip ürünlerinin de kod tabanını oluşturmaktadır.
+Novell'in 2006 yılında Microsoft ile yapmış olduğu anlaşmaya Linux toplulukları tepki göstermiştir. Bu dönemde oldukça büyük kullanıcı desteğini kaybetmiş olmasına rağmen openSUSE halen rağbet gören dağıtımlardan biridir. 
+
+*4. Red Hat*
+
+image::96px-Red_hat_logo_big.jpg[redhat,105,105, role = "left"]
+Red Hat firması 1995′te kurulmuş olup günümüzde dünya çapında en büyük ticari Linux firmasıdır.Uzun yıllar Red Hat Linux ile kâr amacı gütmeyen şirket, özellikle sağladığı teknik destek ve 2000'li yılların başında yayınlamaya başladığı Red Hat Enterprise Linux ürünleriyle bu politikasını değiştirmiştir. Sunucular, iş istasyonları ve kurumsal kullanıcılara yönelik ücretli "Red Hat Enterprise Linux" (RHEL) ürünü özellikle sunucu alanında dünya çapında önemli bir pazar payına sahiptir.
+Red Hat'in 2003 yılında açık kaynak sürüm çıkartmayacağını, bunun yerine hiçbir kar amacı gütmeyen ve mevcut Red Hat kaynağını alıp geliştirecek bir organizasyona destekçi olacağını açıklaması ile Fedora işletim sistemi ortaya çıkmıştır. Böylelikle bir zamanlar masaüstü Linux dünyasının efsanesi olan Red Hat'in masaüstü sürümünün yerini 2003 yılında Fedora almıştır. Günümüzde Red Hat; ticari "Red Hat Enterprise Linux" sürümlerini yayınlamakta ve bir topluluk projesi olan ücretsiz Fedora dağıtımını da sponsor olarak desteklemektedir. Red Hat Enterprise Linux, masaüstü ortamı olarak GNOME kullanmaktadır. RPM paket yöneticisi, Red Hat'ın Linux'a katkılarından birisidir.
+
+*5. Gentoo*
+
+image::90px-Gentoolinuxlogomatf.png[gentoo,105,105, role = "left"]
+İlk kararlı sürümü 2002 Mart’ında yayınlanmıştır. Masaüstü kullanıcıları için uygun bir dağıtım değildir. Gentoo, kaynak kod temelli bir dağıtımdır. Kurulum ortamları, önceden derlenmiş paketler sunsa da, Gentoo’nun dayanağı, kullanıcının kaynak kodundan derleme ve kurulum yapmasıdır. Bunun en önemli avantajı, kullanılan yazılımların, kullanıcının bilgisayarının mimarisine göre optimize ediliyor olmasıdır.
+Kaynak kod tabanlı kurulumunun zorluğu sebebiyle, diğer Linux dağıtımları kadar popüler olamasa da; kaynak kod temelli dağıtımlar arasında en popüleridir. Özelleşmiş Linux dağıtımları hazırlanırken temel olarak kullanılmaya uygundur.
+
+*6. Arch Linux*
+
+image::210px-Archlogo.png[arch,180,105, role = "left"]
+Arch Linux, teknik yönden belirli düzeyde Linux bilgisi olan kullanıcıları hedef seçmiş bir topluluk projesidir.[6] Masaüstü kullanıcıları için uygun bir dağıtım değildir. Arch metin tabanlı ve komut satırına öncelik veren bir dağıtımdır. İlk kararlı sürümü 2002 Mart’ında yayınlanmıştır.
+Arch Linux ekibinin tasarım yaklaşımı basitlik, sadelik ve kod doğruluğu üzerinedir. Ancak buradaki "basitlik" kelimesi, Arch geliştiricileri tarafından "gerekli olmayan eklentiler ve değişiklikler olmaksızın" anlamına gelmekte ve bu felsefe son kullanıcıdan ziyade geliştirici bakış açısını yansıtır. Pacman paket yöneticisi Arch Linux'un en önemli özelliklerinden biridir. Arch Linux, Pacman aracılığıyla .tar.gz paketleri kullanır. Yuvarlanan sürüm modelinde geliştirilmektedir. Yuvarlanan sürüm: yeni sürümleri terkar indirip yüklemeye gerek kalmadan mümkün olan en güncel sistemi sağlayan bir geliştirme moedlidir.
+
+*7. Fedora*
+
+image::Fedora_logo.jpeg[fedora,96,96, role = "left"]
+Fedora (önceki adıyla Fedora Core) ilk kararlı sürümü 2003 yılında yayınlanmış bir topluluk projesidir. Red Hat'in 2003 yılında açık kaynak sürüm çıkartmayacağını, bunun yerine hiçbir kar amacı gütmeyen ve mevcut Red Hat kaynağını alıp geliştirecek bir organizasyona destekçi olacağını açıklaması ile ortaya çıkmıştır. Fedora günümüzde dünya çapında geniş bir özgür yazılım topluluğu tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.
+Fedora, Linux dünyasının önde gelen dağıtımlarından biridir. Öntanımlı olarak GNOME masaüstü ortamını kullanır. Yaklaşık olarak altı ayda bir yeni sürümü yayınlanır. Fedora aynı zamanda Red Hat Enterprise Linux için bir test ortamı görevi görür. Fedora, kelime olarak fötr şapkanın İngilizce karşılığıdır ve Red Hat'in meşhur logosundaki şapkaya atıfta bulunur.
+
+*8. Scientific Linux*
+
+image::96px-Scientific_Linux.png[slinux,96,96, role = "left"]
+Scientific Linux, Fermilab ve CERN (Avrupa Nükleer Araştırma Merkezi) labaratuvarları tarafından, bilimsel ve akademik ortamlarda kullanılmak üzere geliştirilen, sunucularda ve genel olarak kurumsal kullanıcılar tarafından kullanılmaya elverişli bir Linux dağıtımıdır. Dünyada pek çok laboratuarda ve üniversitelerde kullanılmaktadır. Red Hat firmasının ticari ürünü olan Red Hat Enterprise Linux'un kaynak kodları temel alınarak geliştirilmektedir. Genellikle yeni Red Hat sürümlerinden birkaç ay sonra yeni sürümü yayınlanır ve Red Hat altyapısı sayesinde her bir sürümü uzun yıllar desteklenmektedir.
+
+*9. CentOS*
+
+image::96px-CentOS.png[centos,96,96, role = "left"]
+Red Hat'ın ticari Red Hat Enterprise Linux ürünü kaynak kodları üzerine kurulu ve bu dağıtım ile uyumlu bir linux dağıtımıdır. Bağımsız bir topluluk tarafından geliştirilen CentOS'un açılımı The Community ENTerprise Operating System biçimindedir. Kurumsal kullanıcılara ve sunuculara yöneliktir. Red Hat Enterprise Linux'a paralel olarak sürümleri 10 yıl desteklenmektedir. İlk sürümü Mayıs 2004'te yayınlanmıştır.
+Ocak 2014'te CentOS geliştirici lideri Karanbir Singh bir bildiri ile, CentOS'un RedHat ekibi ile beraber çalışacağını duyurmuştur. Kasım 2017'de açıklanan bir istatistiğe göre dünyanın en hızlı 500 süper bilgisayarının 109'u CentOS ile çalışmaktadır.
+
+*10. Ubuntu*
+
+image::New_Logo.png[ubuntu,96,96, role = "left"]
+Ubuntu; Güney Afrika'lı girişimci Mark Shuttleworth ve onun kurduğu Canonical Ltd. tarafından finanse edilmekte ve yönetilmektedir. Linux ve özgür yazılımın, bilgisayar kullanıcıları için günlük yaşamın bir parçası haline gelebilmesi düşüncesiyle başlatılmış olup ilk sürümü 2004 Kasım ayında yayınlanmıştır. Debian tabanlıdır. Ubuntu günümüzde dünyanın en yaygın kullanılan masaüstü Linux dağıtımı konumundadır.
+Altı ayda bir yeni sürümünü yayınlanır. Canonical, iki yılda bir yayınlanan LTS (Uzun Süreli Destek) sürümlerine 5 yıl boyunca güncelleme desteği sunmaktadır. Masaüstü ortamı olarak 2011 öncesinde GNOME 2 kullanılmış, 2011-2017 yılları arasıda ise kendi geliştirdiği Unity masaüstü kabuğu kullanılmış, Ekim 2017'de yayınlanan 17.10 numaralı sürümü ile birlikte GNOME 3 kabuğuna geçilmiştir.
+
+*11. Pardus*
+
+image::96px-Pardus11.jpeg[pardus,96,96, role = "left"]
+Tübitak Ulakbim tarafından geliştirilen bir Linux dağıtımı projesidir. Planlamasına 2003 yılında başlanmış olup ilk kararlı sürümü Aralık 2005’te yayınlanmıştır.
+Pardus, ilk yıllarında herhangi bir Linux dağıtımı temel alınmadan özgün bir Linux dağıtımı olarak geliştirilmeye başlanmıştır. 2005’te yayınlanan ilk sürümünde tamamen kendine özgü PİSİ paket yönetim sistemi, YALI kurulum aracı, Çomar donanım yapılandırma sistemi, Kaptan ilk ayar sihirbazı gibi projeler ile gelmiştir. Bu projeler dışında irili ufaklı daha pek çok proje Pardus 2011.2 sürümüne kadar geliştirilerek kullanılmıştır. 2012 yılında geliştirici ekibin tasviye edilmesi ile birlikte proje bir dönem belirsizlik sürecine girmiştir. Bu süreçte Pardus projesi kapsamında geliştirilmiş olan tüm bu projeler bir kenara bırakılarak Ocak 2013’te tamamen Debian tabanlı yeni kurumsal sürümü yayınlanmıştır. Tübitak artık Pardus'u kurumsal kullanıcılara yönelik olarak geliştirmekte, bireysel kullanıma yönelik resmi bir sürümü yayınlamamaktadır. Günümüzde Pardus'un bireysel sürümü bulunmamakla birlikte Tübitak tarafından "Pardus" isminin kullanımı için izin verilen, Tübitak'tan bağımsız olduğu ifade edilen bir topluluk tarafından Pardus Topluluk Sürümü adı altında bireysel kullanıma yönelik bir topluluk sürümü yayınlanmaktadır.
+
+*12. Linux Mint*
+
+image::96px-Linuxmint.png[linuxmint,96,96, role = "left"]
+Ubuntu ve Debian temel alınarak geliştirilen bir topluluk projesidir. İlk sürümü Ağustos 2006'da yayınlanmıştır. DistroWatch sitesinde 2011 yılından beri her yıl sayfası en çok tıklanan popüler Linux dağıtımı konumundadır. Ubuntu, ABD yasaları gereğince, Debian ise GNU felsefesi gereğince, çeşitli lisans kısıtlamalarına sahip MP3, DVD, DivX gibi ortamlar için gerekli kodçözücüleri ve Adobe Flash, Sun Java gibi eklentileri kurulum dosyası içinde barındırmazken Linux Mint, kullanıcılara söz konusu eklentileri içeren ve içermeyen iki ayrı sürüm sunmaktadır.
+Yazılım Yöneticisi, Güncelleme Yöneticisi, Ana Menü, Dil Yöneticisi, Sürücü Yöneticisi, Giriş Ekranı Yöneticisi, Yedekleyici gibi kendine özgü çeşitli araç ve yazılımlar içerir.
+Linux Mint ekibi tarafından geliştirilen Cinnamon masaüstü ortamı ve Gnome 2'den çatallanarak geliştirilen Mate masaüstü ortamı ana sürüm olarak sunulmaktadır. Cinnamon, geleneksel bilgisayar masaüstü kullanımı ön plana çıkaran, özelleştirilebilirliği oldukça yüksek, sade ve esnek bir masaüstü ortamı olarak tanımlanabilir. Cinnamon, Gnome 3 tabanlı Gnome Shell kabuğu çatallanarak geliştirilmeye başlanmıştır. 
+
+*13. PiSi Linux*
+
+image::96px-Pisilinuxlogo.png[pisilinux,96,96, role = "left"]
+Pisi Linux, PİSİ tabanlı son Pardus sürümü olan Pardus 2011.2'yi temel alan, özgür yazılım topluluğu tarafından geliştirilen, bilgisayar kulanıcılarına kurulum, yapılandırma ve kullanım konusunda kolaylık sağlamaya çalışan, onların temel masaüstü ihtiyaçlarını karşılamayı amaçlayan, son kullanıcı odaklı bir Linux dağıtımıdır. İlk kararlı sürümü Ağustos 2014'te yayınlanmıştır.
+Geçmişte Pardus projesi kapsamında ortaya çıkarılan, ancak Pardus'un Debian tabanına geçmesi ile beraber tek edilen Çomar, Yalı, Pisi, Müdür, Kaptan gibi projeler Pisi Linux bünyesinde devam ettirilmeye çalışılmaktadır. 
+
+*14. Manjaro Linux*
+
+image::236px-Manjaro-logo.png[manjaro,206,96, role = "left"]
+Arch Linux temel alınarak geliştirilen bir Linux dağıtımıdır. İlk kararlı sürümü Kasım 2013'te yayınlanmıştır. Manjaro, Arch'ın aksine temel masaüstü kullanımına yöneliktir. Arch'ın tüm avantajlarını kullanıcı dostu ve erişilebilirlik odaklı olarak sunmayı hedefler. Arch gibi Pacman paket yöneticisini kullanır, yuvarlanan sürüm modeli sayesinde yeni sürümleri indirilmeden sürekli güncel sistem kullanılır. Grafik kartlarını otomatik tanıyarak sürücülerini yükleyebilir, çokluortam dosyalarını oynatmak için gerekli çözücü paketler hazır yüklü gelir. Geçmişte Pardus projesi bünyesinde hazırlanmış Kaptan aracı temel alınarak geliştirilmiş ilk ayar sihirbazı, Manjaro Ayar Yöneticisi, Antergos dağıtımının kurulum aracı temel alınarak geliştirilen kurulum aracı gibi bileşenlere sahiptir.
+
+
+====
+TIP: Linux işletim sistemi çekirdeğinin geliştiricisi ve proje yöneticisi olan Linus Torvalds'ın TED konuşmasını aşağıdan izleyebillirsiniz.
+
+video::o8NPllzkFhE[youtube]
+====
+Aşağıdaki tabloda Linux ve Windows İşletim Sistemlerinin Temel Karşılaştırmasını görebilirsiniz.
+:===
+ :Linux: Windows
+ Nedir?:	Özgür ve Açık kaynak kodlu olarak geliştirilmiş POSIX (Unix için taşınabilir işletim sistemi arabirimi) uyumlu bir işletim sistemidir.:	Microsoft tarafından geliştirilmiş işletim sistemi ailesidir.
+ Maliyet: Linux özgür yazılım ürünleri gibi ücretsiz olarak dağıtılır. Özelleştiririlerek belirli bir ücret karşılığı da satılabilir. Özelleştirilerek dağıtılan Linux türevlerine dağıtım denir. Ücretli linux dağıtımlarının hemen hepsi Windows karşılıklarından ucuzdur.:Masa üstü kullanım için sadece işletim sistemi $200 civarıdır. Öğrenciler için bazı indirimler vardır. Sunucu sistemlerde bu rakamlar ihtiyaca göre artmakla birlikte $2000 cıvarı ücretleri vardır.
+ Kullanıcı Profili: Her yaştan ve bilgi seviyesinden kullanıcılar için uygundur.: Her yaştan ve bilgi seviyesinden kullanıcılar için uygundur.
+ Üreticisi ve Destek: Linux işletim sistemi Linus Torvalds tarafından geliştirilmiştir. Çekirdek geliştirme ekibinin başında hala o vardır. Dünyanın hemen yer yerinden binlerce geliştirici katkı vermektedir. Ücretli ya da ücretsiz destek alınabilmektedir.: Microsoft tarafından üretilmiştir. Birkaç yüz geliştirici tarafından geliştirilmeye devam etmektedir. Ücretli destek alınabilir.
+ Dosya Sistemi: Ext2, Ext3, Ext4, Jfs, ReiserFS, Xfs, Btrfs, FAT, FAT32, NTFS dahil olmak üzere 250 den fazla dosya sistemi destekler.: FAT, FAT32, NTFS, exFAT
+ Güvenlik: Linux işletim sisteminde 60-100 arası virüs yazılmış olmasına karşın. Gelişen teknolojisi ile bugün bilinen bir virüs Linux’a zarar verememektedir.: Windows işletim sistemi için yazılmış 100.000’den fazla virüs bulunmaktadır. Bunlardan korunmak için alınacak yazılımlar $80-$400 arası maliyetlerle piyasada satılmaktadır.
+ Donanım Gereksinimi: Linux her türlü donanım için optimize edilerek çalıştırılabilir. Minimum donanım gerekleri ise oldukça düşüktür.: Windows yüksek performaslı donanımlar üzerinde çalışmak üzere tasarlanmıştır. Bu nedenle her türlü donanım üzerinde çalışmayabilir.
+ Dil Desteği: Türkçe dahil hemen her dili desteklemektedir: Türkçe dahil hemen her dili desteklemektedir.
+ Kaynak Kod: Açık kaynak kodludur. İstediğiniz gibi kod üzerinde değişiklik yapabilirsiniz.: Kapalı kaynak kodludur. Hiçbir değişiklik yapamazsınız.
+ Lisanslama: GNU/Özgür lisanslama modelidir.: Microsoft’a aittir. Hiçbir değişiklik yapamazsınız. Bilgisayarınızın göreceği zarardan ya da yazılımdaki sorunlardan dolayı Microsoft’u suçlayamazsınız. Olası sorunların düzeltilmesi için ücret ödemelisiniz.
+ Güncelleme: Merkezi ve yerel bir çok güncelleme methodunu destekler. Hazır güncelleme paketleri olduğu gibi kaynak koddan da bir yazılımı derleyerek hatta sadece gerekli bileşenleri ile sistemi güncellemek mümkündür.: Microsoft güncelleme servisi ile güncellenebilir. Üçüncü taraf üreticilerin geliştirdiği yazılımlar güncelleme desteği dışındadır ve ayrıca yönetilmesi gerekir.
+ Donanım: Donanım üreticileri tarafından geliştirilen sürücülerin dışında donanım teknik tablolarını yayınladıkları durumda geliştiriciler tarafından da sürücüler geliştirilmektedir.: Sadece donanım üreticileri tarafından geliştirilen sürücüler mevcuttur. Ancak yaygın bir donanım desteği vardır.
+ Yapılandırma: Yapılandırmalar ayrı metin dosyalarında tutulur. Bu sayede yönetilmesi kolaydır. Bir yerdeki arıza başka bir yeri etkilemez.: Windows Kütüğü (Registry) adı verilen bir yapıda tutulur. Bu dosyanın bozulması tüm sistemi çalışamaz hale getirir.
+
+:===
+
+'''
+1 ile Kullanıcının girdiği sayıya kadar olan sayılar içerisinde bulunan asal sayıları listeleyen C++ örneği (C++ kaynak kod gösterimi örneği):
+
+https://www.ahmetcansever.com/cplusplus/c-karisik-ornekler/[C++ Kod Örnekleri]
+[source, ruby]
+----
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int sayi;
+cout << "Bir sayi girinizr: ";
+cin >> sayi;
+ 
+for (int sayac=1; sayac<sayi; sayac++)
+{
+int asal, test;
+test = sayac;
+asal = 1;
+while (test--> 2)
+if ((sayac % test) == 0)
+asal = 0;
+if (asal == 1)
+cout<< sayac << " bir asal sayidir!\n";
+}
+ret
+----
+
+
+'''
+=== *Kaynakça*
+
+<1> https://linux.org.tr/
+<2> https://wiki.ubuntu-tr.net/index.php?title=Linux_da%C4%9F%C4%B1t%C4%B1mlar%C4%B1_k%C4%B1lavuzu
+<3> https://www.ahmetcansever.com/cplusplus/c-karisik-ornekler/
+<4> http://www.profelis.com.tr/tr/blog/yazi/1808/linux-ve-windows-farki/
